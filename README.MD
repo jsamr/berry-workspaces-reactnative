@@ -41,4 +41,4 @@ A problem occurred evaluating settings 'ClientNative'.
 > Could not read script '/home/xxxx/Programmation/yarn-workspaces/packages/client-native/node_modules/@react-native-community/cli-platform-android/native_modules.gradle' as it does not exist.
 ```
 
-
+So I thought **nohoist** could be the solution, and I configured the client-native package.json to set it up. Unfortunately, the node linker doesn't seem to follow those rules.
