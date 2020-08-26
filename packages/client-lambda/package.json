@@ -1,0 +1,9 @@
+{
+  "name": "client-lambda",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "supercommon": "workspace:*"
+  }
+}
